@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewCalculadora"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="Calculadora"
+        android:textSize="25dp"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="52dp" />
+
+    <TextView
+        android:id="@+id/textViewArriba"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:text=""
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="102dp" />
+
+    <TextView
+        android:id="@+id/textViewAbajo"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:text=""
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="102dp" />
+
+    <TableRow>
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="83dp"
+            android:layout_height="50dp"
+            android:text="7"
+            tools:layout_editor_absoluteX="312dp"
+            tools:layout_editor_absoluteY="400dp" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="83dp"
+            android:layout_height="50dp"
+            android:text="8"
+            tools:layout_editor_absoluteX="207dp"
+            tools:layout_editor_absoluteY="400dp" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="83dp"
+            android:layout_height="50dp"
+            android:text="9"
+            tools:layout_editor_absoluteX="111dp"
+            tools:layout_editor_absoluteY="400dp" />
+
+        <Button
+            android:id="@+id/buttonSuma"
+            android:layout_width="83dp"
+            android:layout_height="50dp"
+            android:text="+"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="400dp" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="83dp"
+            android:layout_height="50dp"
+            android:text="4"
+            tools:layout_editor_absoluteX="312dp"
+            tools:layout_editor_absoluteY="340dp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="83dp"
+            android:layout_height="50dp"
+            android:text="5"
+            tools:layout_editor_absoluteX="207dp"
+            tools:layout_editor_absoluteY="340dp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="83dp"
+            android:layout_height="50dp"
+            android:text="6"
+            tools:layout_editor_absoluteX="111dp"
+            tools:layout_editor_absoluteY="340dp" />
+
+        <Button
+            android:id="@+id/buttonResta"
+            android:layout_width="83dp"
+            android:layout_height="50dp"
+            android:text="-"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="340dp" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="83dp"
+            android:layout_height="50dp"
+            android:text="1"
+            tools:layout_editor_absoluteX="312dp"
+            tools:layout_editor_absoluteY="281dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="83dp"
+            android:layout_height="50dp"
+            android:text="2"
+            tools:layout_editor_absoluteX="207dp"
+            tools:layout_editor_absoluteY="281dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="83dp"
+            android:layout_height="50dp"
+            android:text="3"
+            tools:layout_editor_absoluteX="111dp"
+            tools:layout_editor_absoluteY="281dp" />
+
+        <Button
+            android:id="@+id/buttonMultiplicar"
+            android:layout_width="83dp"
+            android:layout_height="50dp"
+            android:text="*"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="281dp" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/button0"
+            android:layout_width="83dp"
+            android:layout_height="50dp"
+            android:text="0"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="458dp" />
+
+        <Button
+            android:id="@+id/buttonResultado"
+            android:layout_width="83dp"
+            android:layout_height="50dp"
+            android:text="Resul"
+            tools:layout_editor_absoluteX="111dp"
+            tools:layout_editor_absoluteY="458dp" />
+
+        <Button
+            android:id="@+id/buttonDelete"
+            android:layout_width="83dp"
+            android:layout_height="50dp"
+            android:text="Del"
+            tools:layout_editor_absoluteX="207dp"
+            tools:layout_editor_absoluteY="458dp" />
+
+        <Button
+            android:id="@+id/buttonDividir"
+            android:layout_width="83dp"
+            android:layout_height="50dp"
+            android:text="/"
+            tools:layout_editor_absoluteX="312dp"
+            tools:layout_editor_absoluteY="458dp" />
+    </TableRow>
+
+
+</TableLayout>
